@@ -1,15 +1,12 @@
 #include "holberton.h"
+
 /**
- * alphabet using _putchar
+ * main - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
-
-void print_alphabet(void){
-
-	int alphabet;
-
-	for(alphabet='a';alphabet<='z';alphabet++){
-             _putchar(alphabet);
-	}
-
-	_putchar('\n');
+int main(void)
+{
+    print_alphabet();
+    return (0);
 }
