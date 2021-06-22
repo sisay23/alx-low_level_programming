@@ -1,13 +1,13 @@
 #include "holberton.h"
 /**
- * is_lettet_uppercase_or_lower_case - To check is it latter
- * Return 1 or 0
+ * _isalpha - Check if character is an alphabetic character.
+ * @c: type int character
+ * Return: 1 if letter, lowercase or uppercase, and 0 otherwise
  */
 int _isalpha(int c)
 {
-
 	if ((c > 64 && c < 91) || (c > 96 && c < 123))
-		return 1;
+		return (1);
 	else
-		return 0;
+		return (0);
 }
