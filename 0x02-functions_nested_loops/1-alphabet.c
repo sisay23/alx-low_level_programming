@@ -1,19 +1,16 @@
 #include "holberton.h"
 /**
- * alphabet using _putchar
- * Discription students shouldnt us standard input output 
+ * print_alphabet - Print alphabet in lowercase using only `_putchar`
+ * Return: 0
  */
-
 void print_alphabet(void)
 {
+	char c = 'a';
 
-	int alphabet;
-
-	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	while (c <= 'z')
 	{
-
-             _putchar(alphabet);
+		_putchar(c);
+		c++;
 	}
-
 	_putchar('\n');
 }
