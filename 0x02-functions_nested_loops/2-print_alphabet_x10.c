@@ -1,9 +1,8 @@
 #include "holberton.h"
 /**
- * print_alphabet_x10 - Print alphabet in lowercase 10 times
- * Return: 0
+ *print alphabet 10X
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int count;
 	int alphabet;
