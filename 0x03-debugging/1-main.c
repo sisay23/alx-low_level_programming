@@ -9,15 +9,15 @@ int main(void)
 {
         int i;
 
-        printf("Infinite loop incoming :(\n"); //this is warning
+        printf("Infinite loop incoming :(\n");
 
         i = 0;
 
-        while (i < 10)
-        {
-                putchar(i); //this part of the code causing the output to go into an infinite loop
-        }
-
+       /** while (i < 10)
+       * {
+       *        putchar(i); //this part of the code causing the output to go into an infinite loop
+       * }
+       * */
         printf("Infinite loop avoided! \\o/\n");
 
         return (0);
